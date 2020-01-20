@@ -19,7 +19,7 @@ def id_generator
   id_gen = {
     id: 3
   }
-  :id.object_id
+  # :id.object_id
 end
 
 def my_hash_creator(key, value)
