@@ -22,9 +22,9 @@ def id_generator
   :id.object_id
 end
 
-def my_hash_creator(name, value)
+def my_hash_creator(key, value)
   my_hash = {
-    name: value
+    key: value
   }
   my_hash
 end
